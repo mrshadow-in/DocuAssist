@@ -1,0 +1,116 @@
+/* Registration Page Styles */
+body {
+    background-color: #241b35;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #342a45;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    max-height: 80vh; /* Added max-height to fit the screen */
+    overflow-y: auto; /* Add scroll if content exceeds max-height */
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    animation: fadeInUp 1s ease;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6c35de;
+    border-radius: 5px;
+    background-color: #342a45;
+    color: #fff;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #a364ff;
+}
+
+.btn {
+    background-color: #6c35de;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a364ff;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Path: docuassist/docuassist/templates/registration.html */
+/* Hide the default scrollbar */
+.container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.container::-webkit-scrollbar-track {
+    background: #342a45;
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+    background: #6c35de;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #a364ff;
+}

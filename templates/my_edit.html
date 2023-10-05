@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="{% static 'profiles/css/my_edit.css' %}">
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-mode.css' %}">
+    <script src="{% static 'profiles/js/dark-mode-toggle.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Edit Profile</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <div class="container">
+        <!-- Your profile edit form goes here -->
+        <form method="POST" action="{% url 'my_edit' %}">
+            {% csrf_token %}
+            <!-- Add form fields for editing user profile information -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="{{ user.name }}" required>
+
+            <label for="date_of_birth">Date of Birth:</label>
+            <input type="date" id="date_of_birth" name="date_of_birth" value="{{ user.date_of_birth|date:'Y-m-d' }}" required>
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" value="{{ user.gender }}" required>
+
+            <!-- Add more form fields for other profile information -->
+
+            <button type="submit">Save Changes</button>
+        </form>
+        <a href="{% url 'my_profile' %}" class="back-link">Back to Profile</a>
+    </div>
+</body>
+</html>

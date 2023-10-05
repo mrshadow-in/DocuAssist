@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'users/css/otp_request.css' %}">
+    <title>OTP Request | DocuAssist</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Request OTP</h1>
+        <p class="subtitle">Enter your email to receive the OTP for login.</p>
+        <form method="POST">
+            {% csrf_token %}
+            <input type="email" name="email" placeholder="Email" required>
+            <div class="buttons">
+                <button type="submit" class="btn">Send OTP</button>
+                <a href="{% url 'login' %}" class="btn">Back to Login</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

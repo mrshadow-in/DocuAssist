@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+
+    <!-- Include your CSS files for styling here -->
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-purple.css' %}">
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-mode.css' %}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">DocuAssist</a>
+        </div>
+        <div class="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{% url 'my_edit' %}" class="nav-link">Edit Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'mediinfoview' %}" class="nav-link">Medical Info</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'myreports' %}" class="nav-link">My Reports</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'logout' %}" class="nav-link">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- User Profile Section -->
+    <section class="profile-section">
+        <h1>Welcome, {{ user.name }}</h1>
+        <div class="user-details">
+            <p><strong>Email:</strong> {{ user.email }}</p>
+            <p><strong>Date of Birth:</strong> {{ user.date_of_birth }}</p>
+            <p><strong>Gender:</strong> {{ user.gender }}</p>
+            <p><strong>Address:</strong> {{ user.address }}</p>
+            <p><strong>Contact:</strong> {{ user.contact }}</p>
+            <p><strong>Emergency Contact Name:</strong> {{ user.emergency_contact_name }}</p>
+            <p><strong>Emergency Contact Number:</strong> {{ user.emergency_contact_number }}</p>
+        </div>
+    </section>
+
+    <!-- Include your dark mode toggle button here -->
+
+    <!-- Include any other content specific to this page -->
+
+    <!-- Include your JavaScript files for functionality here -->
+    <script src="{% static 'profiles/js/dark-mode-toggle.js' %}"></script>
+</body>
+</html>

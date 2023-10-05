@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Information</title>
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-purple.css' %}">
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-mode.css' %}">
+    <script src="{% static 'profiles/js/dark-mode-toggle.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Medical Information</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <div class="container">
+        <!-- Display user's medical information here -->
+        <h2>Medical History:</h2>
+        <p>{{ user.medical_info.medical_history }}</p>
+
+        <h2>Family Medical History:</h2>
+        <p>{{ user.medical_info.family_medical_history }}</p>
+
+        <h2>Medication:</h2>
+        <p>{{ user.medical_info.medication }}</p>
+
+        <h2>Immunization:</h2>
+        <p>{{ user.medical_info.immunization }}</p>
+
+        <h2>Lifestyle Factors:</h2>
+        <p>{{ user.medical_info.lifestyle_factor }}</p>
+
+        <h2>Allergies:</h2>
+        <p>{{ user.medical_info.allergies }}</p>
+
+        <h2>Past Hospitalization:</h2>
+        <p>{{ user.medical_info.past_hospitalization }}</p>
+
+        <h2>Surgical History:</h2>
+        <p>{{ user.medical_info.surgical_history }}</p>
+
+        <h2>Social History:</h2>
+        <p>{{ user.medical_info.social_history }}</p>
+
+        <h2>Mental Health History:</h2>
+        <p>{{ user.medical_info.mental_health_history }}</p>
+
+        <h2>Gynecological Disorders:</h2>
+        <p>{{ user.medical_info.gynological_disorder }}</p>
+
+        <h2>Additional Information:</h2>
+        <p>{{ user.medical_info.additional_information }}</p>
+
+        <!-- Add an edit button to allow users to edit their medical information -->
+        <a href="{% url 'medinfo_edit' %}">Edit Medical Information</a>
+    </div>
+</body>
+</html>

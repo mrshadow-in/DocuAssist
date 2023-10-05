@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Reports</title>
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-purple.css' %}">
+    <link rel="stylesheet" href="{% static 'profiles/css/dark-mode.css' %}">
+    <script src="{% static 'profiles/js/dark-mode-toggle.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>My Reports</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <div class="container">
+        {% if reports %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Report</th>
+                        <th>Uploaded Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for report in reports %}
+                        <tr>
+                            <td>{{ report.report_file.name }}</td>
+                            <td>{{ report.uploaded_at }}</td>
+                            <td>
+                                <a href="#" class="delete-link">Delete (Not Implemented)</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No reports uploaded yet.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Diagnostic Reports</title>
+    <link rel="stylesheet" href="{% static 'profiles/css/reports.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">My Diagnostic Reports</h1>
+
+        <!-- List of diagnostic reports -->
+        <ul class="report-list">
+            {% for report in reports %}
+                <li>
+                    <div class="report">
+                        <p><strong>Uploaded at:</strong> {{ report.uploaded_at }}</p>
+                        <a href="{{ report.report_file.url }}" download>Download Report</a>
+                    </div>
+                </li>
+            {% empty %}
+                <p>No diagnostic reports available.</p>
+            {% endfor %}
+        </ul>
+
+        <!-- Button to upload a new diagnostic report -->
+        <a href="{% url 'upload_diagnostic_report' %}" class="btn">Upload New Report</a>
+
+        <!-- Button to go back to the profile home -->
+        <a href="{% url 'profile_home' %}" class="btn">Back to Profile</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* medinfo.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form, button, textarea, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply your color theme */
+body {
+    background-color: #2e2e2e; /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #a040a0; /* Purple text */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #3c3c3c; /* Dark gray form background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #464646; /* Slightly lighter gray for input fields */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+select {
+    appearance: none; /* Remove default select styles */
+}
+
+button {
+    background-color: #a040a0; /* Purple button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c1f6c; /* Darker purple on hover */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Uploads</title>
+    <style>
+        /* Your CSS for the dark and purple theme goes here */
+        body {
+            background-color: #2a1845;
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .list-group-item {
+            background-color: #3d285f;
+            border: none;
+        }
+
+        .list-group-item a {
+            color: #9d63ff;
+        }
+
+        .btn-primary {
+            background-color: #9d63ff;
+            border: none;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #7a48cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Uploads</h1>
+        <ul class="list-group mt-4">
+            {% for report in reports %}
+                <li class="list-group-item">
+                    <a href="{{ report.report_file.url }}" target="_blank">{{ report.report_file.name }}</a>
+                </li>
+            {% empty %}
+                <li class="list-group-item">No uploads available.</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'upload_success' %}" class="btn btn-primary mt-4">Back to Upload Success</a>
+    </div>
+</body>
+</html>

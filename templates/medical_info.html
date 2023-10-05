@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Information</title>
+    <link rel="stylesheet" href="{% static 'profiles/css/medical_info.html.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Medical Information</h2>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <!-- Medical History -->
+            <div class="form-group">
+                <label for="medical_history">Medical History</label>
+                <textarea id="medical_history" name="medical_history" class="form-control" rows="4" placeholder="Enter your medical history here"></textarea>
+            </div>
+
+            <!-- Family Medical History -->
+            <div class="form-group">
+                <label for="family_medical_history">Family Medical History</label>
+                <textarea id="family_medical_history" name="family_medical_history" class="form-control" rows="4" placeholder="Enter your family medical history here"></textarea>
+            </div>
+
+            <!-- Other Medical Information Fields -->
+            <!-- Add similar form fields for medication, immunization, lifestyle_factor, allergies, etc. -->
+
+            <div class="buttons">
+                <button type="submit" class="btn">Save</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
