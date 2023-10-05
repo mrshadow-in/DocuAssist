@@ -34,7 +34,7 @@ The Core app is the central component of the MedGPT project, responsible for han
 4. Install the project dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   nothing to install
    ```
 
 5. Download and configure AI model weights (if applicable). Consult the documentation for specific instructions.
@@ -42,6 +42,7 @@ The Core app is the central component of the MedGPT project, responsible for han
 6. Start the development server:
 
    ```bash
+   cd ..
    python manage.py runserver
    ```
 
