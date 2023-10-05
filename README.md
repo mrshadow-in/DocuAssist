@@ -1,2 +1,2 @@
-# DocuAssist
- Added Soon
+# MedGPT
+ Healthcare management and patient data storage play a vital role in the medical industry. The efficient organization and secure management of medical records are crucial for healthcare providers and patients alike. This project aims to develop a user-friendly Medical Record System using Django, a high-level Python web framework, and MongoDB Atlas, a cloud-based NoSQL database.   The system's primary objectives are to facilitate the secure storage and retrieval of patient information and medical history, enhance data privacy, and ensure easy access to medical records. It aims to overcome the limitations of traditional paper-based record-keeping systems and provide a modern, web-based solution for healthcare professionals and patients.

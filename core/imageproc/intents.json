@@ -1,0 +1,1207 @@
+{
+  "intents": [
+    {
+      "tag": "medication",
+      "patterns": [
+        "prescription",
+        "medication",
+        "drug",
+        "pharmacy"
+      ],
+      "responses": [
+        "medication"
+      ]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "blood pressure",
+        "BP",
+        "hypertension",
+        "systolic",
+        "diastolic"
+      ],
+      "responses": [
+        "blood pressure"
+      ]
+    },
+    {
+      "tag": "sugar_level",
+      "patterns": [
+        "blood sugar",
+        "glucose level",
+        "A1c",
+        "diabetes"
+      ],
+      "responses": [
+        "sugar level"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "symptoms",
+        "signs",
+        "complaints",
+        "ailments"
+      ],
+      "responses": [
+        "symptoms"
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "diagnosis",
+        "diagnosed with",
+        "medical condition",
+        "illness"
+      ],
+      "responses": [
+        "diagnosis"
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "treatment",
+        "therapy",
+        "medical care",
+        "medication plan"
+      ],
+      "responses": [
+        "treatment"
+      ]
+    },
+    {
+      "tag": "vitals",
+      "patterns": [
+        "vitals",
+        "heart rate",
+        "respiratory rate",
+        "body temperature"
+      ],
+      "responses": [
+        "vitals"
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "allergies",
+        "allergic reactions",
+        "sensitivities",
+        "intolerances"
+      ],
+      "responses": [
+        "allergies"
+      ]
+    },
+    {
+      "tag": "prescription",
+      "patterns": [
+        "prescription refill",
+        "new prescription",
+        "medication dosage"
+      ],
+      "responses": [
+        "prescription"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "doctor's appointment",
+        "medical visit",
+        "schedule appointment"
+      ],
+      "responses": [
+        "appointment"
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "health insurance",
+        "insurance coverage",
+        "policy details"
+      ],
+      "responses": [
+        "insurance"
+      ]
+    },
+    {
+      "tag": "lab_tests",
+      "patterns": [
+        "lab tests",
+        "blood tests",
+        "urine analysis",
+        "medical lab"
+      ],
+      "responses": [
+        "lab tests"
+      ]
+    },
+    {
+      "tag": "surgery",
+      "patterns": [
+        "surgery",
+        "surgical procedure",
+        "operation",
+        "surgical"
+      ],
+      "responses": [
+        "surgery"
+      ]
+    },
+    {
+      "tag": "family_history",
+      "patterns": [
+        "family history",
+        "genetic conditions",
+        "family health"
+      ],
+      "responses": [
+        "family history"
+      ]
+    },
+    {
+      "tag": "medication_side_effects",
+      "patterns": [
+        "medication side effects",
+        "drug interactions",
+        "adverse reactions"
+      ],
+      "responses": [
+        "medication side effects"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "mental health",
+        "psychological well-being",
+        "mental disorder"
+      ],
+      "responses": [
+        "mental health"
+      ]
+    },
+    {
+      "tag": "weight",
+      "patterns": [
+        "weight",
+        "body weight",
+        "weight measurement"
+      ],
+      "responses": [
+        "weight"
+      ]
+    },
+    {
+      "tag": "smoking",
+      "patterns": [
+        "smoking",
+        "tobacco use",
+        "nicotine addiction"
+      ],
+      "responses": [
+        "smoking"
+      ]
+    },
+    {
+      "tag": "alcohol",
+      "patterns": [
+        "alcohol consumption",
+        "drinking habits",
+        "alcohol use"
+      ],
+      "responses": [
+        "alcohol"
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "exercise routine",
+        "physical activity",
+        "fitness program"
+      ],
+      "responses": [
+        "exercise"
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "dietary recommendations",
+        "nutrition plan",
+        "dietary restrictions"
+      ],
+      "responses": [
+        "nutrition"
+      ]
+    },
+    {
+      "tag": "dietary_restrictions",
+      "patterns": [
+        "food allergies",
+        "dietary restrictions",
+        "food sensitivities"
+      ],
+      "responses": [
+        "dietary_restrictions"
+      ]
+    },
+    {
+      "tag": "medical_history",
+      "patterns": [
+        "medical history",
+        "health background",
+        "past illnesses"
+      ],
+      "responses": [
+        "medical_history"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "medical emergency",
+        "urgent care",
+        "emergency room"
+      ],
+      "responses": [
+        "emergency"
+      ]
+    },
+    {
+      "tag": "follow-up",
+      "patterns": [
+        "follow-up appointment",
+        "next visit",
+        "scheduled follow-up"
+      ],
+      "responses": [
+        "follow-up"
+      ]
+    },
+    {
+      "tag": "home_medications",
+      "patterns": [
+        "home medications",
+        "medication list",
+        "current drugs"
+      ],
+      "responses": [
+        "home_medications"
+      ]
+    },
+    {
+      "tag": "medication_schedule",
+      "patterns": [
+        "medication schedule",
+        "dosage timings",
+        "drug administration"
+      ],
+      "responses": [
+        "medication_schedule"
+      ]
+    },
+    {
+      "tag": "immunizations",
+      "patterns": [
+        "vaccinations",
+        "immunization record",
+        "vaccine history"
+      ],
+      "responses": [
+        "immunizations"
+      ]
+    },
+    {
+      "tag": "hospitalization",
+      "patterns": [
+        "hospital stay",
+        "admitted to hospital",
+        "inpatient care"
+      ],
+      "responses": [
+        "hospitalization"
+      ]
+    },
+    {
+      "tag": "pain_management",
+      "patterns": [
+        "pain management",
+        "pain relief",
+        "pain medication"
+      ],
+      "responses": [
+        "pain_management"
+      ]
+    },
+    {
+      "tag": "rehabilitation",
+      "patterns": [
+        "rehabilitation",
+        "recovery program",
+        "physical therapy"
+      ],
+      "responses": [
+        "rehabilitation"
+      ]
+    },
+    {
+      "tag": "prescription_refill",
+      "patterns": [
+        "prescription refill",
+        "refill request",
+        "renew medication"
+      ],
+      "responses": [
+        "prescription_refill"
+      ]
+    },
+    {
+      "tag": "medication_compliance",
+      "patterns": [
+        "medication compliance",
+        "taking meds as prescribed",
+        "adherence to medication"
+      ],
+      "responses": [
+        "medication_compliance"
+      ]
+    },
+    {
+      "tag": "alternative_medicine",
+      "patterns": [
+        "alternative medicine",
+        "natural remedies",
+        "herbal treatments"
+      ],
+      "responses": [
+        "alternative_medicine"
+      ]
+    },
+    {
+      "tag": "patient_concerns",
+      "patterns": [
+        "patient concerns",
+        "patient questions",
+        "health inquiries"
+      ],
+      "responses": [
+        "patient_concerns"
+      ]
+    },
+    {
+      "tag": "health_records",
+      "patterns": [
+        "health records",
+        "medical files",
+        "patient records"
+      ],
+      "responses": [
+        "health_records"
+      ]
+    },
+    {
+      "tag": "sexual_health",
+      "patterns": [
+        "sexual health",
+        "sexual wellness",
+        "sexual issues"
+      ],
+      "responses": [
+        "sexual_health"
+      ]
+    },
+    {
+      "tag": "prescription_cost",
+      "patterns": [
+        "prescription cost",
+        "medication expenses",
+        "pharmacy charges"
+      ],
+      "responses": [
+        "prescription_cost"
+      ]
+    },
+    {
+      "tag": "sexual_health",
+      "patterns": [
+        "sexual health",
+        "sexual wellness",
+        "sexual issues"
+      ],
+      "responses": [
+        "sexual_health"
+      ]
+    },
+    {
+      "tag": "prescription_cost",
+      "patterns": [
+        "prescription cost",
+        "medication expenses",
+        "pharmacy charges"
+      ],
+      "responses": [
+        "prescription_cost"
+      ]
+    },
+    {
+      "tag": "dietary_supplements",
+      "patterns": [
+        "dietary supplements",
+        "vitamins",
+        "minerals",
+        "nutritional supplements"
+      ],
+      "responses": [
+        "dietary_supplements"
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "pregnancy",
+        "expecting",
+        "maternity care",
+        "prenatal"
+      ],
+      "responses": [
+        "pregnancy"
+      ]
+    },
+    {
+      "tag": "menopause",
+      "patterns": [
+        "menopause",
+        "perimenopause",
+        "menopausal symptoms"
+      ],
+      "responses": [
+        "menopause"
+      ]
+    },
+    {
+      "tag": "pediatric_care",
+      "patterns": [
+        "pediatric care",
+        "child health",
+        "kids' health",
+        "pediatrician"
+      ],
+      "responses": [
+        "pediatric_care"
+      ]
+    },
+    {
+      "tag": "senior_care",
+      "patterns": [
+        "senior care",
+        "elderly health",
+        "geriatric care",
+        "aging concerns"
+      ],
+      "responses": [
+        "senior_care"
+      ]
+    },
+    {
+      "tag": "disability",
+      "patterns": [
+        "disability",
+        "disabled",
+        "special needs",
+        "mobility challenges"
+      ],
+      "responses": [
+        "disability"
+      ]
+    },
+    {
+      "tag": "nutrition_counseling",
+      "patterns": [
+        "nutrition counseling",
+        "diet advice",
+        "nutritional guidance"
+      ],
+      "responses": [
+        "nutrition_counseling"
+      ]
+    },
+    {
+      "tag": "cancer",
+      "patterns": [
+        "cancer",
+        "oncology",
+        "tumor",
+        "chemotherapy"
+      ],
+      "responses": [
+        "cancer"
+      ]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "mental health support",
+        "psychological counseling",
+        "therapist"
+      ],
+      "responses": [
+        "mental_health_support"
+      ]
+    },
+    {
+      "tag": "sleep_disorders",
+      "patterns": [
+        "sleep disorders",
+        "insomnia",
+        "sleep apnea",
+        "restless legs"
+      ],
+      "responses": [
+        "sleep_disorders"
+      ]
+    },
+    {
+      "tag": "heart_health",
+      "patterns": [
+        "heart health",
+        "cardiovascular",
+        "heart disease",
+        "cardiologist"
+      ],
+      "responses": [
+        "heart_health"
+      ]
+    },
+    {
+      "tag": "emergency_contact",
+      "patterns": [
+        "emergency contact",
+        "urgent situation",
+        "emergency number"
+      ],
+      "responses": [
+        "emergency_contact"
+      ]
+    },
+    {
+      "tag": "medication_information",
+      "patterns": [
+        "medication information",
+        "drug details",
+        "medication guide"
+      ],
+      "responses": [
+        "medication_information"
+      ]
+    },
+    {
+      "tag": "mental_health_resources",
+      "patterns": [
+        "mental health resources",
+        "support groups",
+        "counseling services"
+      ],
+      "responses": [
+        "mental_health_resources"
+      ]
+    },
+    {
+      "tag": "physical_therapy",
+      "patterns": [
+        "physical therapy",
+        "rehabilitation exercises",
+        "PT sessions"
+      ],
+      "responses": [
+        "physical_therapy"
+      ]
+    },
+    {
+      "tag": "smoking_cessation",
+      "patterns": [
+        "smoking cessation",
+        "quit smoking",
+        "smoking addiction"
+      ],
+      "responses": [
+        "smoking_cessation"
+      ]
+    },
+    {
+      "tag": "substance_abuse",
+      "patterns": [
+        "substance abuse",
+        "drug addiction",
+        "substance dependence"
+      ],
+      "responses": [
+        "substance_abuse"
+      ]
+    },
+    {
+      "tag": "weight_management",
+      "patterns": [
+        "weight management",
+        "weight loss",
+        "healthy weight"
+      ],
+      "responses": [
+        "weight_management"
+      ]
+    },
+    {
+      "tag": "pediatric_vaccinations",
+      "patterns": [
+        "pediatric vaccinations",
+        "childhood vaccines",
+        "immunization schedule"
+      ],
+      "responses": [
+        "pediatric_vaccinations"
+      ]
+    },
+    {
+      "tag": "chronic_conditions",
+      "patterns": [
+        "chronic conditions",
+        "long-term illnesses",
+        "chronic disease management"
+      ],
+      "responses": [
+        "chronic_conditions"
+      ]
+    },
+    {
+      "tag": "medication_side_effects",
+      "patterns": [
+        "medication side effects",
+        "drug interactions",
+        "adverse reactions"
+      ],
+      "responses": [
+        "medication_side_effects"
+      ]
+    },
+    {
+      "tag": "telemedicine",
+      "patterns": [
+        "telemedicine",
+        "virtual doctor visits",
+        "online consultations"
+      ],
+      "responses": [
+        "telemedicine"
+      ]
+    },
+    {
+      "tag": "medication_adherence",
+      "patterns": [
+        "medication adherence",
+        "taking meds as prescribed",
+        "compliance"
+      ],
+      "responses": [
+        "medication_adherence"
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "medical equipment",
+        "assistive devices",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_equipment"
+      ]
+    },
+    {
+      "tag": "nutrition_labels",
+      "patterns": [
+        "nutrition labels",
+        "food packaging",
+        "nutritional information"
+      ],
+      "responses": [
+        "nutrition_labels"
+      ]
+    },
+    {
+      "tag": "medical_devices",
+      "patterns": [
+        "medical devices",
+        "medical equipment",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_devices"
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "medical equipment",
+        "assistive devices",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_equipment"
+      ]
+    },
+    {
+      "tag": "nutrition_labels",
+      "patterns": [
+        "nutrition labels",
+        "food packaging",
+        "nutritional information"
+      ],
+      "responses": [
+        "nutrition_labels"
+      ]
+    },
+    {
+      "tag": "medical_devices",
+      "patterns": [
+        "medical devices",
+        "medical equipment",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_devices"
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "medical equipment",
+        "assistive devices",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_equipment"
+      ]
+    },
+    {
+      "tag": "nutrition_labels",
+      "patterns": [
+        "nutrition labels",
+        "food packaging",
+        "nutritional information"
+      ],
+      "responses": [
+        "nutrition_labels"
+      ]
+    },
+    {
+      "tag": "medical_devices",
+      "patterns": [
+        "medical devices",
+        "medical equipment",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_devices"
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "medical equipment",
+        "assistive devices",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_equipment"
+      ]
+    },
+    {
+      "tag": "nutrition_labels",
+      "patterns": [
+        "nutrition labels",
+        "food packaging",
+        "nutritional information"
+      ],
+      "responses": [
+        "nutrition_labels"
+      ]
+    },
+    {
+      "tag": "medical_devices",
+      "patterns": [
+        "medical devices",
+        "medical equipment",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_devices"
+      ]
+    },
+    {
+      "tag": "medical_equipment",
+      "patterns": [
+        "medical equipment",
+        "assistive devices",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_equipment"
+      ]
+    },
+    {
+      "tag": "nutrition_labels",
+      "patterns": [
+        "nutrition labels",
+        "food packaging",
+        "nutritional information"
+      ],
+      "responses": [
+        "nutrition_labels"
+      ]
+    },
+    {
+      "tag": "medical_devices",
+      "patterns": [
+        "medical devices",
+        "medical equipment",
+        "durable medical goods"
+      ],
+      "responses": [
+        "medical_devices"
+      ]
+    },
+    {
+      "tag": "mental_health_conditions",
+      "patterns": [
+        "mental health conditions",
+        "psychological disorders",
+        "mental illnesses"
+      ],
+      "responses": [
+        "mental_health_conditions"
+      ]
+    },
+    {
+      "tag": "child_development",
+      "patterns": [
+        "child development",
+        "child milestones",
+        "early childhood"
+      ],
+      "responses": [
+        "child_development"
+      ]
+    },
+    {
+      "tag": "occupational_therapy",
+      "patterns": [
+        "occupational therapy",
+        "OT sessions",
+        "occupational therapist"
+      ],
+      "responses": [
+        "occupational_therapy"
+      ]
+    },
+    {
+      "tag": "speech_therapy",
+      "patterns": [
+        "speech therapy",
+        "speech-language pathology",
+        "speech therapist"
+      ],
+      "responses": [
+        "speech_therapy"
+      ]
+    },
+    {
+      "tag": "renal_health",
+      "patterns": [
+        "renal health",
+        "kidney health",
+        "nephrology",
+        "renal disease"
+      ],
+      "responses": [
+        "renal_health"
+      ]
+    },
+    {
+      "tag": "liver_health",
+      "patterns": [
+        "liver health",
+        "hepatology",
+        "liver disease",
+        "hepatic conditions"
+      ],
+      "responses": [
+        "liver_health"
+      ]
+    },
+    {
+      "tag": "endocrine_health",
+      "patterns": [
+        "endocrine health",
+        "endocrinology",
+        "hormonal disorders"
+      ],
+      "responses": [
+        "endocrine_health"
+      ]
+    },
+    {
+      "tag": "neurology",
+      "patterns": [
+        "neurology",
+        "neurological disorders",
+        "brain health",
+        "neurologist"
+      ],
+      "responses": [
+        "neurology"
+      ]
+    },
+    {
+      "tag": "pain_management",
+      "patterns": [
+        "pain management",
+        "pain relief",
+        "pain medication"
+      ],
+      "responses": [
+        "pain_management"
+      ]
+    },
+    {
+      "tag": "genetic_testing",
+      "patterns": [
+        "genetic testing",
+        "DNA testing",
+        "genetic disorders"
+      ],
+      "responses": [
+        "genetic_testing"
+      ]
+    },
+    {
+      "tag": "preventive_care",
+      "patterns": [
+        "preventive care",
+        "health prevention",
+        "disease prevention"
+      ],
+      "responses": [
+        "preventive_care"
+      ]
+    },
+    {
+      "tag": "health_screening",
+      "patterns": [
+        "health screening",
+        "medical checkup",
+        "screening tests"
+      ],
+      "responses": [
+        "health_screening"
+      ]
+    },
+    {
+      "tag": "personalized_medicine",
+      "patterns": [
+        "personalized medicine",
+        "precision medicine",
+        "tailored treatment"
+      ],
+      "responses": [
+        "personalized_medicine"
+      ]
+    },
+    {
+      "tag": "medical_research",
+      "patterns": [
+        "medical research",
+        "health studies",
+        "clinical trials"
+      ],
+      "responses": [
+        "medical_research"
+      ]
+    },
+    {
+      "tag": "geriatric_care",
+      "patterns": [
+        "geriatric care",
+        "elderly healthcare",
+        "senior health",
+        "gerontology"
+      ],
+      "responses": [
+        "geriatric_care"
+      ]
+    },
+    {
+      "tag": "holistic_medicine",
+      "patterns": [
+        "holistic medicine",
+        "alternative healthcare",
+        "holistic therapies"
+      ],
+      "responses": [
+        "holistic_medicine"
+      ]
+    },
+    {
+      "tag": "sexual_health_education",
+      "patterns": [
+        "sexual health education",
+        "sex education",
+        "sexual health awareness"
+      ],
+      "responses": [
+        "sexual_health_education"
+      ]
+    },
+    {
+      "tag": "cognitive_health",
+      "patterns": [
+        "cognitive health",
+        "brain fitness",
+        "memory improvement"
+      ],
+      "responses": [
+        "cognitive_health"
+      ]
+    },
+    {
+      "tag": "emergency_response",
+      "patterns": [
+        "emergency response",
+        "first aid",
+        "emergency procedures"
+      ],
+      "responses": [
+        "emergency_response"
+      ]
+    },
+    {
+      "tag": "medical_terminology",
+      "patterns": [
+        "medical terminology",
+        "medical jargon",
+        "healthcare vocabulary"
+      ],
+      "responses": [
+        "medical_terminology"
+      ]
+    },
+    {
+      "tag": "patient_advocacy",
+      "patterns": [
+        "patient advocacy",
+        "patient rights",
+        "healthcare advocacy"
+      ],
+      "responses": [
+        "patient_advocacy"
+      ]
+    },
+    {
+      "tag": "medical_education",
+      "patterns": [
+        "medical education",
+        "healthcare learning",
+        "medical school"
+      ],
+      "responses": [
+        "medical_education"
+      ]
+    },
+    {
+      "tag": "healthcare_ethics",
+      "patterns": [
+        "healthcare ethics",
+        "medical ethics",
+        "bioethics"
+      ],
+      "responses": [
+        "healthcare_ethics"
+      ]
+    },
+    {
+      "tag": "medical_technology",
+      "patterns": [
+        "medical technology",
+        "healthcare innovations",
+        "medical devices"
+      ],
+      "responses": [
+        "medical_technology"
+      ]
+    },
+    {
+      "tag": "public_health",
+      "patterns": [
+        "public health",
+        "community health",
+        "epidemiology"
+      ],
+      "responses": [
+        "public_health"
+      ]
+    },
+    {
+      "tag": "healthcare_policy",
+      "patterns": [
+        "healthcare policy",
+        "health policy",
+        "healthcare regulations"
+      ],
+      "responses": [
+        "healthcare_policy"
+      ]
+    },
+    {
+      "tag": "global_health",
+      "patterns": [
+        "global health",
+        "world health",
+        "global healthcare challenges"
+      ],
+      "responses": [
+        "global_health"
+      ]
+    },
+    {
+      "tag": "healthcare_access",
+      "patterns": [
+        "healthcare access",
+        "access to care",
+        "healthcare equity"
+      ],
+      "responses": [
+        "healthcare_access"
+      ]
+    },
+    {
+      "tag": "healthcare_innovation",
+      "patterns": [
+        "healthcare innovation",
+        "healthcare startups",
+        "medical breakthroughs"
+      ],
+      "responses": [
+        "healthcare_innovation"
+      ]
+    }
+  ]
+}
+
+
+

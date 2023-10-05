@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'upload.css' %}">
+    <!-- Add any additional CSS or stylesheets here -->
+    <title>Upload Successful | MedGPT</title>
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <div class="content">
+            <h1>Upload Successful</h1>
+            <p class="animation">Your diagnostic report has been uploaded successfully.</p>
+            <a href="{% url 'index' %}" class="btn">Go to Home</a>
+            {% if report_exists %}
+            <a href="{% url 'upload_diagnostic_report' %}" class="btn">Upload Again</a>
+            {% endif %}
+            <a href="{% url 'myuploads' %}" class="btn">View Uploads</a> <!-- Add this button -->
+        </div>
+    </div>
+</body>
+</html>s

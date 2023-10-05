@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login | MedGPT</title>
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <div class="content">
+            {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            <h1>Welcome To MedGPT</h1>
+            <p class="animation">The Ultimate Home Medical Solution</p>
+            <h2>Login</h2>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <a href="{% url 'register' %}" class="link">Don't have an account? Register</a>
+        </div>
+    </div>
+</body>
+</html>

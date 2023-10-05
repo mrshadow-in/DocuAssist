@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #2e2259; /* Purple background color */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #a229e3; /* Custom purple color for headings */
+    text-align: center;
+}
+
+/* Style the form elements */
+.form-group {
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #292838; /* Dark purple form input background */
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #a229e3; /* Custom purple color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #be3dff; /* Darker purple on hover */
+}
+/* Add animation to the submit button */
+.btn {
+    /* ... (previous styles) */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ff3d3d; /* Darker purple on hover */
+    transform: scale(1.05); /* Scale up the button on hover */
+}
+/* Add border to form elements */
+.form-control {
+    /* ... (previous styles) */
+    border: 1px solid #ff6b6b; /* Custom purple border for form inputs */
+}
+
+/* Customize focus styles */
+.form-control:focus {
+    border-color: #ff3d3d; /* Darker purple on focus */
+    box-shadow: 0 0 5px #ff3d3d; /* Add a subtle box shadow on focus */
+}
+/* Add opacity transition to the form container */
+.content {
+    /* ... (previous styles) */
+    transition: opacity 0.3s ease;
+}
+
+/* Fade in the form container */
+.content {
+    opacity: 0;
+    animation: fade-in 0.5s ease forwards;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
+}

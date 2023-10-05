@@ -1,0 +1,13 @@
+
+You: I am having Headache (i have used PC too much today and when i am out of my PC my headache starts)
+DocuAssist: There are a few possible causes of headaches after using a computer, including eye strain, poor posture, and dehydration. To help relieve your headache, try taking breaks every 20 minutes to rest your eyes and drink plenty of fluids. If your headache persists, you may want to see a doctor to
+You: I am having Headache (i have used PC too much today and when i am out of my PC my headache starts)
+DocuAssist: There are a few possible causes of headaches after using a computer, including eye strain, poor posture, and dehydration. To help relieve your headache, try taking breaks every 20 minutes to rest your eyes and drink plenty of fluids. If your headache persists, you may want to see a doctor to
+You: okay feel better in dark place is it normal ?
+DocuAssist: There could be a number of reasons why you feel better in a dark place. It could be due to a sensitivity to light, or it could be a sign of a more serious condition such as migraines or cluster headaches. If you are concerned about your symptoms, please see your doctor
+You: hi
+DocuAssist: Hello, how can I help you?
+You: hrllo
+DocuAssist: Hello, how can I help you?
+You: lets contact a doctor
+DocuAssist: Please provide your symptoms so that I can help you better.

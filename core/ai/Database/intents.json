@@ -1,0 +1,32 @@
+{
+    "intents":[
+        {
+            "tag":"music",
+            "patterns":["play","sing","beat up"
+            ],
+            "responses":["music"
+            ]
+        },
+        {
+            "tag":"open",
+            "patterns":["launch","visit","start","open"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"None",
+            "patterns":["hello","how are you","hehe","hmm"
+            ],
+            "responses":["None"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["time"
+            ],
+            "responses":["time"
+            ]
+        }
+    ]
+}

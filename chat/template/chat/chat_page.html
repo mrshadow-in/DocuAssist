@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #6e21f3;
+            color: #fff;
+        }
+
+        #chat-messages {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        .message p {
+            margin: 0;
+            padding: 0;
+        }
+
+        #chat-form {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap; /* Allows multiple file inputs and comments to wrap */
+        }
+
+        #message-input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        #image-input {
+            flex: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        #comment-input {
+            flex: 2; /* Expands the comment input field */
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat with MedGPT Bot</h1>
+
+    <div id="chat-messages">
+        {% for message in messages %}
+        <div class="message">
+            <p>{{ message.user.name }}:</p>
+            {% if "Image:" in message.message %}
+            <img src="{{ message.message.split(': ')[1] }}" alt="Uploaded Image" style="max-width: 100%;">
+            {% else %}
+            <p>{{ message.message }}</p>
+            {% endif %}
+            <p>{{ message.timestamp }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <form id="chat-form" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="text" id="message-input" name="message" placeholder="Type your message">
+        <input type="file" id="image-input" name="image">
+        <textarea id="comment-input" name="comment" rows="4" cols="50" placeholder="Add a comment..."></textarea>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

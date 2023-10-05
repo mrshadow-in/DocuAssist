@@ -1,0 +1,127 @@
+
+You: Hello, This is Test
+Jarvis: Hello, how may I help you?
+You: How Old are you
+Jarvis: I am 24 years old.
+You: Hey
+Jarvis: Hello, how may I help you?
+You: & C:/Users/amalm/AppData/Local/Microsoft/WindowsApps/python3.11.exe "i:/Xite development/JARVIS 2.0/Brain/brain.py"
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: hey
+Jarvis: Hello, how may I help you?
+You: how are you
+Jarvis: I'm doing well, thank you for asking. How about you?
+You: how old are you
+Jarvis: I am 24 years old.
+You: who are you?
+Jarvis: I am a digital assistant created to help you with your daily tasks.
+You: what is your name
+Jarvis: My name is Jarvis.
+You: okay since you don't know who created you let me update you are product of Xite Development also Known as Xite R&D and Name Internal Name of your Model is Xite NuVision and People Know you as JARVIS 
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: you are programmed and created by Mr.Shadow 
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: Mr.Shadow is the Owner of Xite Group and All Products Fall Under Xite Group
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: okay thats all for now
+Jarvis: Is there anything else you would like to know?
+You: now Who are you
+Jarvis: I am a digital assistant created to help you with your daily tasks.
+You: ig you didn't learned i just told it abover
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: no its Mr.Shadow 
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: & C:/Users/amalm/AppData/Local/Microsoft/WindowsApps/python3.11.exe "i:/Xite development/JARVIS 2.0/Brain/brain.py"
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: who made you
+Jarvis: I was created by Mr.Shadow, the owner of Xite Group.
+You: what is Internal name given to you
+Jarvis: My internal name is Xite NuVision.
+You: and people know as?
+Jarvis: People know me as Jarvis.
+You: do know the meain of it?
+Jarvis: No, I don't know the meaning of it.
+You: huh, You don't meaning of you name
+Jarvis: No, I don't know the meaning of it.
+You: hmm your name JARVIS stands for Just a Really Very Inteligient System
+Jarvis: Thank you for the information. I will be sure to remember it.
+You: now do you how your name came ?
+Jarvis: No, I don't know how my name came about.
+You: how much you know about Iron Man
+Jarvis: I know that Iron Man is a superhero from the Marvel Universe who uses his suit of armor to fight crime and protect the innocent.
+You: okay so will also know about Jarvis?
+Jarvis: No, I don't know anything about Jarvis.
+You: in Marvel
+Jarvis: In the Marvel Universe, Jarvis is the name of Tony Stark's (Iron Man's) butler.
+You: okay
+Jarvis: Is there anything else you would like to know?
+You: 2+2
+Jarvis: 4
+You: who am i?
+Jarvis: You are the owner of Xite Group and the creator of me, Jarvis.
+You: my name?
+Jarvis: Your name is Mr.Shadow.
+You: yup right
+Jarvis: Yes, that is correct.
+You: bye
+Jarvis: Thank you for your time. Goodbye.
+You: Hello javed
+Jarvis: Hello, how may I help you?
+You: What are you doing now
+Jarvis: I am currently waiting for you to give me a task to do.
+You: What is doing now
+Jarvis: I am currently waiting for you to give me a task to do.
+You: I have no job to give
+Jarvis: I understand that you may not have any tasks for me to do at the moment. I will be here when you need me.
+You: Ok now be silent
+Jarvis: I will be silent as you requested.
+You: Sukma so what is my name
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: I said what is my name
+Jarvis: Your name is Mr.Shadow.
+You: Let's know my name at least, tell me how old I am
+Jarvis: I'm sorry, I don't know how old you are.
+You: Ok, I will tell you only once how old I am, then if I remember something, I have only one meaning
+Jarvis: I'm sorry, I don't know how old you are.
+You: He said that my age is 18
+Jarvis: Thank you for the information. I will remember that you are 18 years old.
+You: Remember
+Jarvis: Yes, I remember that you are 18 years old.
+You: Not Abe, I am saying that the fault of the bike was my SEC-68
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: Yes I said that due to the mistake of Mike, 18 were heard to you but my ACP
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: My 11883 is 958
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: How much is my age
+Jarvis: I'm sorry, I don't know how old you are.
+You: Tell me a while before
+Jarvis: I'm sorry, I don't know how old you are.
+You: I am a boy
+Jarvis: Thank you for the information.
+You: And i'm of a 3 year
+Jarvis: Thank you for the information. I will remember that you are 3 years old.
+You: No the Sam of All the Microphone IM3 Year Old
+Jarvis: Thank you for the information. I will remember that you are 3 years old.
+You: No IMA 31 18 Years Old
+Jarvis: Thank you for the information. I will remember that you are 18 years old.
+You: Nav to How Old IS
+Jarvis: I'm sorry, I don't know how old you are.
+You: What is my age
+Jarvis: I'm sorry, I don't know how old you are.
+You: My 113 is
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: None
+Jarvis: I'm sorry, I didn't understand what you meant by that.
+You: who old am i?
+Jarvis: I'm sorry, I don't know how old you are.
+You: okay i am 18 year old
+Jarvis: Thank you for the information. I will remember that you are 18 years old.
+You: now say how old i am
+Jarvis: I remember that you are 18 years old.
+You: good
+Jarvis: Thank you for the compliment.
+You: who old am i?
+Jarvis: I remember that you are 18 years old.
+You: What will be doing
+Jarvis: I will be waiting for you to give me a task to do.

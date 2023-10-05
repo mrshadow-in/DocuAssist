@@ -1,0 +1,8 @@
+- **Registration System Changes:**
+  - Users have the option to choose between phone number or email for verification during registration.
+  - It is no longer mandatory to fill out the medical history form during registration. Users can provide this information through the chat system or manually edit it through their profile page.
+
+- **Login System Change:**
+  - Users can log in directly with OTP (One-Time Password) authentication, eliminating the need to remember passwords and simplifying the login process.
+
+These changes will help improve the user experience and the flexibility of your medical management system. If you have any more updates or questions, feel free to share them.

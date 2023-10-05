@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Background color for the entire page */
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for the container */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+    background-color: #333; /* Dark mode toggle button background color */
+    color: #fff; /* Dark mode toggle button text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+    background-color: #007bff; /* Submit button background color */
+    color: #fff; /* Submit button text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Back Link Styles */
+.back-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #007bff; /* Back link text color */
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

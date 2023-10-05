@@ -1,0 +1,52 @@
+/* Dark Purple Theme Styles */
+body {
+    background-color: #1b1464;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1f1a70;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.navbar-brand a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.user-details {
+    margin-top: 10px;
+}
+
+/* Add your additional CSS styles for this theme here */

@@ -1,0 +1,26 @@
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Diagnostic Report</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'upload.css' %}">
+{#    <link rel="stylesheet" type="text/css" href="upload.css">#}
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Upload Diagnostic Report</h1>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="reportFile">Select Diagnostic Report File:</label>
+                    <input type="file" name="report_file" accept=".pdf, .doc, .docx">
+                </div>
+                <button type="submit" class="btn">Upload</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

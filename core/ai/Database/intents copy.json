@@ -1,0 +1,25 @@
+{
+    "intents":[
+        {
+            "tag":"gptunknown",
+            "patterns":["I'm sorry, but I'm not familiar with that particular condition or treatment. I would recommend discussing this with a senior doctor who may have more experience in this area","It seems like you have a complex medical question, and I want to provide you with the most accurate information. Let me consult a medical reference or seek advice from a more experienced colleague, and I'll get back to you shortly.","beat up"
+            ],
+            "responses":["gptunknown"
+            ]
+        },
+        {
+            "tag":"bardunknown",
+            "patterns":["launch","visit","start","open"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"none",
+            "patterns":["none"],
+            "responses":["none"
+            ]
+        },
+        }
+    ]
+}
